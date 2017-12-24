@@ -10,10 +10,10 @@
 
 use Zizaco\Entrust\Contracts\EntrustPermissionInterface;
 use Zizaco\Entrust\Traits\EntrustPermissionTrait;
-use Illuminate\Database\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\Model as Eloquent;
 use Illuminate\Support\Facades\Config;
 
-class EntrustPermission extends Model implements EntrustPermissionInterface
+class EntrustPermission extends Eloquent implements EntrustPermissionInterface
 {
     use EntrustPermissionTrait;
 
