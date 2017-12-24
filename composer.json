@@ -56,11 +56,5 @@
             "tests/Middleware/MiddlewareTest.php"
         ]
     },
-    "minimum-stability": "dev",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url":  "https://github.com/olimpiade-id/entrust.git"
-        },
-    ]
+    "minimum-stability": "dev"
 }
